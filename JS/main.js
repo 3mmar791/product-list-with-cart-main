@@ -252,19 +252,19 @@ addItem.forEach(function (el) {
     cartItem.appendChild(iconX);
     cart.appendChild(cartItem);
 
-    let total = document.createElement("div");
-    total.className = "total";
+    // let total = document.createElement("div");
+    // total.className = "total";
 
-    let tatalP = document.createElement("p");
-    tatalP.textContent = "Order Total";
+    // let tatalP = document.createElement("p");
+    // tatalP.textContent = "Order Total";
 
-    let tatalPrice = document.createElement("p");
-    tatalPrice.textContent = `$`;
-    total.append(tatalP);
-    total.append(tatalPrice);
+    // let tatalPrice = document.createElement("p");
+    // tatalPrice.textContent = `$`;
+    // total.append(tatalP);
+    // total.append(tatalPrice);
 
-    let carbonNatural = document.createElement("div");
+    // let carbonNatural = document.createElement("div");
 
-    cart.appendChild(total);
+    // cart.appendChild(total);
   });
 });
